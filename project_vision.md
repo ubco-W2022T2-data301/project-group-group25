@@ -28,6 +28,9 @@ Dovile's article offers a few suggestions to consider when writing your project 
 > 
 > 6. **Write about who you are.** The best vision statements are about who you are as a company or team and who you wish to become.
 
+Our Vision: We want to identify lifestyle choices that minimize life insurance premiums while investigating whether or not the criterias make use of harmful stereotypes.
+
 ## Contracted Grade
 
-For this project, we agree to contract for a { A+/A/B/C }.
+For this project, we agree to contract for a { A }.
+
