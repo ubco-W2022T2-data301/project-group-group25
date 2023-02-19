@@ -32,5 +32,9 @@ Our Vision: We want to identify lifestyle choices that minimize life insurance p
 
 ## Contracted Grade
 
+<<<<<<< HEAD
 For this project, we agree to contract for a { A }.
 
+=======
+For this project, we agree to contract for a {A}.
+>>>>>>> 78af4a8916d3ce21d0ad5fc588b9d02cc795f8ac
