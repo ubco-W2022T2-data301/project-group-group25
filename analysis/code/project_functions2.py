@@ -2,9 +2,9 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-def load_and_process(r"C:\Users\somes\Downloads\project-group-group25\data\raw\insurance.csv"):
+def load_and_process(url):
     df= (
-        pd.read_csv(r"C:\Users\somes\Downloads\project-group-group25\data\raw\insurance.csv")
+        pd.read_csv(url)
         .dropna()
         .reset_index()
         .rename(columns={"sex": "Sex"})
@@ -16,4 +16,4 @@ def load_and_process(r"C:\Users\somes\Downloads\project-group-group25\data\raw\i
         .rename(columns={"charges": "Life Insurance Cost"})
         .rename(columns={"age": "Age"})
     )
-    
+    return df
