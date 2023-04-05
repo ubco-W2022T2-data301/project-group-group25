@@ -1,0 +1,765 @@
+index,age,sex,bmi,number_of_children,smoker,region,charges,charge_per_child,bmi_category,age_category
+1023,18,male,23.32,1,no,southeast,1711.0268,1711.0268,Healthy weight,18-28
+270,18,male,29.37,1,no,southeast,1719.4363,1719.4363,Overweight,18-28
+1283,18,male,30.03,1,no,southeast,1720.3537,1720.3537,Obese,18-28
+1,18,male,33.77,1,no,southeast,1725.5523,1725.5523,Obese,18-28
+710,18,male,35.2,1,no,southeast,1727.54,1727.54,Obese,18-28
+248,19,male,20.9,1,no,southwest,1832.094,1832.094,Healthy weight,
+15,19,male,24.6,1,no,southwest,1837.237,1837.237,Healthy weight,
+149,19,male,28.4,1,no,southwest,1842.519,1842.519,Overweight,
+1295,20,male,22.0,1,no,southwest,1964.78,1964.78,Healthy weight,
+210,20,male,33.0,1,no,southwest,1980.07,1980.07,Obese,
+802,21,male,22.3,1,no,southwest,2103.08,2103.08,Healthy weight,
+469,18,female,24.09,1,no,southeast,2201.0971,2201.0971,Healthy weight,18-28
+571,18,female,37.29,1,no,southeast,2219.4451,2219.4451,Obese,18-28
+897,19,male,25.555,1,no,northwest,2221.56445,2221.56445,Overweight,
+938,18,male,26.18,2,no,southeast,2304.0022,1152.0011,Overweight,18-28
+106,19,female,28.4,1,no,southwest,2331.519,2331.519,Overweight,
+692,20,male,32.395,1,no,northwest,2362.22905,2362.22905,Obese,
+761,23,male,35.2,1,no,southwest,2416.955,2416.955,Obese,
+847,23,male,50.38,1,no,southeast,2438.0552,2438.0552,Obese,
+592,20,male,31.13,2,no,southeast,2566.4707,1283.23535,Obese,
+680,21,female,17.4,1,no,southwest,2585.269,2585.269,Underweight,
+363,21,female,26.4,1,no,southwest,2597.779,2597.779,Overweight,
+910,22,male,28.31,1,no,northwest,2639.0429,2639.0429,Overweight,
+506,22,male,31.35,1,no,northwest,2643.2685,2643.2685,Obese,
+636,19,female,24.51,1,no,northwest,2709.1119,2709.1119,Healthy weight,
+1016,19,female,24.605,1,no,northwest,2709.24395,2709.24395,Healthy weight,
+1299,19,female,25.745,1,no,northwest,2710.82855,2710.82855,Overweight,
+168,19,female,31.825,1,no,northwest,2719.27975,2719.27975,Obese,
+960,19,female,39.615,1,no,northwest,2730.10785,2730.10785,Obese,
+28,23,male,17.385,1,no,northwest,2775.19215,2775.19215,Underweight,
+881,23,male,27.36,1,no,northwest,2789.0574,2789.0574,Overweight,
+564,18,female,32.12,2,no,southeast,2801.2588,1400.6294,Obese,18-28
+276,19,male,20.615,2,no,northwest,2803.69785,1401.848925,Healthy weight,
+977,26,male,29.15,1,no,southeast,2902.9065,2902.9065,Overweight,
+1108,26,male,30.0,1,no,southwest,2904.088,2904.088,Obese,
+926,19,female,23.4,2,no,southwest,2913.569,1456.7845,Healthy weight,
+930,26,male,46.53,1,no,southeast,2927.0647,2927.0647,Obese,
+541,20,female,31.79,2,no,southeast,3056.3881,1528.19405,Obese,
+507,21,male,23.75,2,no,northwest,3077.0955,1538.54775,Healthy weight,
+428,21,female,16.815,1,no,northeast,3167.45585,3167.45585,Underweight,
+364,21,female,21.89,2,no,southeast,3180.5101,1590.25505,Healthy weight,
+1302,25,female,20.8,1,no,southwest,3208.787,3208.787,Healthy weight,
+1099,25,female,33.99,1,no,southeast,3227.1211,3227.1211,Obese,
+1239,25,female,42.13,1,no,southeast,3238.4357,3238.4357,Obese,
+1261,28,male,37.1,1,no,southwest,3277.161,3277.161,Obese,
+968,21,male,25.745,2,no,northeast,3279.86855,1639.934275,Overweight,
+1270,26,male,33.915,1,no,northwest,3292.52985,3292.52985,Obese,
+809,25,male,25.84,1,no,northeast,3309.7926,3309.7926,Overweight,
+990,26,female,19.8,1,no,southwest,3378.91,3378.91,Healthy weight,
+871,26,female,29.48,1,no,southeast,3392.3652,3392.3652,Overweight,
+218,26,female,29.92,1,no,southeast,3392.9768,3392.9768,Overweight,
+46,18,female,38.665,2,no,northeast,3393.35635,1696.678175,Obese,18-28
+656,26,female,42.4,1,no,southwest,3410.324,3410.324,Obese,
+880,22,male,34.8,3,no,southwest,3443.064,1147.6879999999999,Obese,
+1102,29,male,38.94,1,no,southeast,3471.4096,3471.4096,Obese,29-39
+369,18,male,30.4,3,no,northeast,3481.868,1160.6226666666666,Obese,18-28
+737,26,male,23.7,2,no,southwest,3484.331,1742.1655,Healthy weight,
+141,26,male,32.49,1,no,northeast,3490.5491,3490.5491,Obese,
+699,23,female,39.27,2,no,southeast,3500.6123,1750.30615,Obese,
+212,24,male,28.5,2,no,northwest,3537.703,1768.8515,Overweight,
+326,27,female,23.21,1,no,southeast,3561.8889,3561.8889,Healthy weight,
+694,27,female,34.8,1,no,southwest,3577.999,3577.999,Obese,
+51,21,female,33.63,2,no,northwest,3579.8287,1789.91435,Obese,
+1092,23,male,32.7,3,no,southwest,3591.48,1197.16,Obese,
+1048,25,female,22.515,1,no,northwest,3594.17085,3594.17085,Healthy weight,
+817,23,male,37.1,3,no,southwest,3597.596,1199.1986666666667,Obese,
+620,30,male,31.4,1,no,southwest,3659.346,3659.346,Obese,29-39
+1131,27,male,45.9,2,no,southwest,3693.428,1846.714,Obese,
+95,28,female,37.62,1,no,southeast,3766.8838,3766.8838,Obese,
+555,28,male,23.8,2,no,southwest,3847.674,1923.837,Healthy weight,
+586,21,male,20.235,3,no,northeast,3861.20965,1287.0698833333333,Healthy weight,
+955,31,male,39.49,1,no,southeast,3875.7341,3875.7341,Obese,29-39
+107,26,male,30.875,2,no,northwest,3877.30425,1938.652125,Obese,
+294,25,male,26.8,3,no,southwest,3906.127,1302.0423333333333,Overweight,
+760,22,female,34.58,2,no,northeast,3925.7582,1962.8791,Obese,
+76,29,female,29.59,1,no,southeast,3947.4131,3947.4131,Overweight,29-39
+1214,27,female,31.255,1,no,northwest,3956.07145,3956.07145,Obese,
+186,26,female,29.92,2,no,southeast,3981.9768,1990.9884,Overweight,
+1017,26,female,34.2,2,no,southwest,3987.926,1993.963,Obese,
+182,22,male,19.95,3,no,northeast,4005.4225,1335.1408333333334,Healthy weight,
+451,30,male,24.13,1,no,northwest,4032.2407,4032.2407,Healthy weight,29-39
+249,29,male,28.975,1,no,northeast,4040.55825,4040.55825,Overweight,29-39
+1217,29,male,37.29,2,no,southeast,4058.1161,2029.05805,Obese,29-39
+657,27,male,33.155,2,no,northwest,4058.71245,2029.356225,Obese,
+409,32,male,30.03,1,no,southeast,4074.4537,4074.4537,Obese,29-39
+1083,32,male,31.5,1,no,southwest,4076.497,4076.497,Obese,29-39
+63,28,female,25.935,1,no,northwest,4133.64165,4133.64165,Overweight,
+21,30,female,32.4,1,no,southwest,4149.736,4149.736,Obese,29-39
+307,30,female,33.33,1,no,southeast,4151.0287,4151.0287,Obese,29-39
+1279,25,female,26.79,2,no,northwest,4189.1131,2094.55655,Overweight,
+732,24,female,30.1,3,no,southwest,4234.927,1411.6423333333332,Obese,
+282,30,male,27.645,1,no,northeast,4237.12655,4237.12655,Overweight,29-39
+1324,31,male,25.935,1,no,northwest,4239.89265,4239.89265,Overweight,29-39
+434,31,male,28.595,1,no,northwest,4243.59005,4243.59005,Overweight,29-39
+253,27,male,30.3,3,no,southwest,4260.744,1420.2479999999998,Obese,
+796,30,male,44.22,2,no,southeast,4266.1658,2133.0829,Obese,29-39
+1242,22,female,21.28,3,no,northwest,4296.2712,1432.0904,Healthy weight,
+205,28,female,28.88,1,no,northeast,4337.7352,4337.7352,Overweight,
+1297,28,female,26.51,2,no,southeast,4340.4409,2170.22045,Overweight,
+303,28,female,33.0,2,no,southeast,4349.462,2174.731,Obese,
+784,31,female,29.26,1,no,southeast,4350.5144,4350.5144,Overweight,29-39
+869,25,female,24.3,3,no,southwest,4391.652,1463.884,Healthy weight,
+813,28,male,22.515,2,no,northeast,4428.88785,2214.443925,Healthy weight,
+1005,29,male,31.73,2,no,northwest,4433.3877,2216.69385,Obese,29-39
+1174,29,male,32.11,2,no,northwest,4433.9159,2216.95795,Obese,29-39
+608,28,male,26.98,2,no,northeast,4435.0942,2217.5471,Overweight,
+1006,28,male,29.26,2,no,northeast,4438.2634,2219.1317,Overweight,
+80,31,male,26.885,1,no,northeast,4441.21315,4441.21315,Overweight,29-39
+2,28,male,33.0,3,no,southeast,4449.462,1483.1540000000002,Obese,
+1081,32,male,27.835,1,no,northwest,4454.40265,4454.40265,Overweight,29-39
+1059,32,male,33.82,1,no,northwest,4462.7218,4462.7218,Obese,29-39
+237,31,male,38.39,2,no,southeast,4463.2051,2231.60255,Obese,29-39
+643,23,female,34.96,3,no,northwest,4466.6214,1488.8738,Obese,
+61,25,male,33.66,4,no,southeast,4504.6624,1126.1656,Obese,
+952,30,female,28.405,1,no,northwest,4527.18295,4527.18295,Overweight,29-39
+1167,29,female,24.6,2,no,southwest,4529.477,2264.7385,Healthy weight,29-39
+1312,34,male,42.9,1,no,southwest,4536.259,4536.259,Obese,29-39
+1095,18,female,31.35,4,no,northeast,4561.1885,1140.297125,Obese,18-28
+1075,32,female,29.59,1,no,southeast,4562.8421,4562.8421,Overweight,29-39
+905,26,female,29.355,2,no,northeast,4564.19145,2282.095725,Overweight,
+389,24,female,30.21,3,no,northwest,4618.0799,1539.3599666666667,Obese,
+902,26,male,27.265,3,no,northeast,4661.28635,1553.7621166666668,Overweight,
+319,32,male,37.335,1,no,northeast,4667.60765,4667.60765,Obese,29-39
+1168,32,male,35.2,2,no,southwest,4670.64,2335.32,Obese,29-39
+934,32,male,37.18,2,no,southeast,4673.3922,2336.6961,Obese,29-39
+454,32,male,46.53,2,no,southeast,4686.3887,2343.19435,Obese,29-39
+32,19,female,28.6,5,no,southwest,4687.797,937.5593999999999,Overweight,
+1220,30,female,21.945,1,no,northeast,4718.20355,4718.20355,Healthy weight,29-39
+797,30,female,22.895,1,no,northeast,4719.52405,4719.52405,Healthy weight,29-39
+832,28,female,23.845,2,no,northwest,4719.73655,2359.868275,Healthy weight,
+440,31,female,32.68,1,no,northwest,4738.2682,4738.2682,Obese,29-39
+965,35,male,27.1,1,no,southwest,4746.344,4746.344,Overweight,29-39
+1273,35,male,27.61,1,no,southeast,4747.0529,4747.0529,Overweight,29-39
+361,35,male,30.5,1,no,southwest,4751.07,4751.07,Obese,29-39
+572,30,female,43.12,2,no,southeast,4753.6368,2376.8184,Obese,29-39
+449,35,male,38.6,1,no,southwest,4762.329,4762.329,Obese,29-39
+684,33,female,18.5,1,no,southwest,4766.022,4766.022,Healthy weight,29-39
+585,33,female,28.27,1,no,southeast,4779.6023,4779.6023,Overweight,29-39
+1225,33,female,39.82,1,no,southeast,4795.6568,4795.6568,Obese,29-39
+169,27,male,18.905,3,no,northeast,4827.90495,1609.30165,Healthy weight,
+166,20,female,37.0,5,no,southwest,4830.63,966.126,Obese,
+670,30,male,31.57,3,no,southeast,4837.5823,1612.5274333333334,Obese,29-39
+906,27,male,32.585,3,no,northeast,4846.92015,1615.64005,Obese,
+884,25,male,26.695,4,no,northwest,4877.98105,1219.4952625,Overweight,
+346,33,male,35.75,2,no,southeast,4889.9995,2444.99975,Obese,29-39
+320,34,male,25.27,1,no,northwest,4894.7533,4894.7533,Overweight,29-39
+431,29,female,20.235,2,no,northwest,4906.40965,2453.204825,Healthy weight,29-39
+984,20,male,30.115,5,no,northeast,4915.05985,983.0119699999999,Obese,
+189,29,female,32.11,2,no,northwest,4922.9159,2461.45795,Obese,29-39
+496,31,female,23.6,2,no,southwest,4931.647,2465.8235,Healthy weight,29-39
+1199,31,female,25.8,2,no,southwest,4934.705,2467.3525,Overweight,29-39
+41,31,female,36.63,2,no,southeast,4949.7587,2474.87935,Obese,29-39
+213,34,female,26.73,1,no,southeast,5002.7827,5002.7827,Overweight,29-39
+104,34,female,27.5,1,no,southwest,5003.853,5003.853,Overweight,29-39
+220,34,female,33.7,1,no,southwest,5012.471,5012.471,Obese,29-39
+755,31,male,27.645,2,no,northeast,5031.26955,2515.634775,Overweight,29-39
+413,25,male,23.9,5,no,southwest,5080.096,1016.0192,Healthy weight,
+1205,35,male,17.86,1,no,northwest,5116.5004,5116.5004,Underweight,29-39
+1161,34,male,42.13,2,no,southeast,5124.1887,2562.09435,Obese,29-39
+150,35,male,24.13,1,no,northwest,5125.2157,5125.2157,Healthy weight,29-39
+145,29,female,38.83,3,no,southeast,5138.2567,1712.7522333333334,Obese,29-39
+662,32,female,31.54,1,no,northeast,5148.5526,5148.5526,Obese,29-39
+163,32,female,29.8,2,no,southwest,5152.134,2576.067,Overweight,29-39
+788,29,male,22.515,3,no,northeast,5209.57885,1736.5262833333334,Healthy weight,29-39
+518,35,female,31.0,1,no,southwest,5240.765,5240.765,Obese,29-39
+919,35,female,34.21,1,no,southeast,5245.2269,5245.2269,Obese,29-39
+173,35,female,34.8,1,no,southwest,5246.047,5246.047,Obese,29-39
+222,32,male,30.8,3,no,southwest,5253.524,1751.1746666666668,Obese,29-39
+914,33,male,24.605,2,no,northwest,5257.50795,2628.753975,Healthy weight,29-39
+1298,33,male,27.455,2,no,northwest,5261.46945,2630.734725,Overweight,29-39
+1113,28,female,26.315,3,no,northwest,5312.16985,1770.7232833333335,Overweight,
+187,30,female,30.9,3,no,southwest,5325.651,1775.2169999999999,Obese,29-39
+1190,31,female,32.775,2,no,northwest,5327.40025,2663.700125,Obese,29-39
+241,33,female,22.135,1,no,northeast,5354.07465,5354.07465,Healthy weight,29-39
+1210,36,male,30.875,1,no,northwest,5373.36425,5373.36425,Obese,29-39
+705,33,female,32.9,2,no,southwest,5375.038,2687.519,Obese,29-39
+834,36,male,33.82,1,no,northwest,5377.4578,5377.4578,Obese,29-39
+703,34,female,26.41,1,no,northwest,5385.3379,5385.3379,Overweight,29-39
+1320,31,male,31.065,3,no,northwest,5425.02335,1808.3411166666667,Obese,29-39
+758,30,male,37.43,3,no,northeast,5428.7277,1809.5759,Obese,29-39
+1287,36,female,25.9,1,no,southwest,5472.449,5472.449,Overweight,29-39
+348,36,female,29.92,1,no,southeast,5478.0368,5478.0368,Overweight,29-39
+993,38,male,28.27,1,no,southeast,5484.4673,5484.4673,Overweight,29-39
+922,38,male,31.0,1,no,southwest,5488.262,5488.262,Obese,29-39
+814,36,male,34.43,2,no,southeast,5584.3057,2792.15285,Obese,29-39
+597,34,female,33.25,1,no,northeast,5594.8455,5594.8455,Obese,29-39
+1245,28,male,24.3,5,no,southwest,5615.369,1123.0738,Healthy weight,
+1153,35,female,35.815,1,no,northwest,5630.45785,5630.45785,Obese,29-39
+1119,30,female,19.95,3,no,northwest,5693.4305,1897.8101666666669,Healthy weight,29-39
+1064,29,female,25.6,4,no,southwest,5708.867,1427.21675,Overweight,29-39
+93,35,male,34.77,2,no,northwest,5729.0053,2864.50265,Obese,29-39
+1127,35,female,35.86,2,no,southeast,5836.5204,2918.2602,Obese,29-39
+383,35,female,43.34,2,no,southeast,5846.9176,2923.4588,Obese,29-39
+1082,38,male,19.95,1,no,northwest,5855.9025,5855.9025,Healthy weight,29-39
+437,35,male,28.9,3,no,southwest,5926.846,1975.6153333333332,Overweight,29-39
+778,35,male,34.32,3,no,southeast,5934.3798,1978.1265999999998,Obese,29-39
+536,33,female,38.9,3,no,southwest,5972.378,1990.7926666666665,Obese,29-39
+504,38,female,28.93,1,no,southeast,5974.3847,5974.3847,Overweight,29-39
+589,38,female,30.69,1,no,southeast,5976.8311,5976.8311,Obese,29-39
+59,34,female,37.335,2,no,northwest,5989.52365,2994.761825,Obese,29-39
+1247,33,male,29.4,4,no,southwest,6059.173,1514.79325,Overweight,29-39
+535,38,male,28.025,1,no,northeast,6067.12675,6067.12675,Overweight,29-39
+44,38,male,37.05,1,no,northeast,6079.6715,6079.6715,Obese,29-39
+129,38,male,34.7,2,no,southwest,6082.405,3041.2025,Obese,29-39
+1169,37,female,34.105,1,no,northwest,6112.35295,6112.35295,Obese,29-39
+708,31,female,30.495,3,no,northeast,6113.23105,2037.7436833333334,Obese,29-39
+829,39,male,21.85,1,no,northwest,6117.4945,6117.4945,Healthy weight,
+646,39,male,26.22,1,no,northwest,6123.5688,6123.5688,Overweight,
+167,32,female,33.155,3,no,northwest,6128.79745,2042.9324833333333,Obese,29-39
+345,34,female,29.26,3,no,southeast,6184.2994,2061.4331333333334,Overweight,29-39
+540,34,female,38.0,3,no,southwest,6196.448,2065.482666666667,Obese,29-39
+1200,37,male,24.32,2,no,northwest,6198.7518,3099.3759,Healthy weight,29-39
+24,37,male,28.025,2,no,northwest,6203.90175,3101.950875,Overweight,29-39
+931,39,female,32.5,1,no,southwest,6238.298,6238.298,Obese,
+42,41,male,21.78,1,no,southeast,6272.4772,6272.4772,Healthy weight,40-49
+878,41,male,28.8,1,no,southwest,6282.235,6282.235,Overweight,40-49
+929,41,male,34.21,1,no,southeast,6289.7549,6289.7549,Obese,40-49
+879,37,female,29.5,2,no,southwest,6311.952,3155.976,Overweight,29-39
+43,37,female,30.8,2,no,southeast,6313.759,3156.8795,Obese,29-39
+152,32,female,37.145,3,no,northeast,6334.34355,2111.44785,Obese,29-39
+1143,39,male,32.34,2,no,southeast,6338.0756,3169.0378,Obese,
+582,39,male,45.43,2,no,southeast,6356.2707,3178.13535,Obese,
+811,33,female,42.94,3,no,northwest,6360.9936,2120.3312,Obese,29-39
+566,38,female,40.565,1,no,northwest,6373.55735,6373.55735,Obese,29-39
+67,40,male,26.315,1,no,northwest,6389.37785,6389.37785,Overweight,40-49
+1198,40,male,29.355,1,no,northwest,6393.60345,6393.60345,Overweight,40-49
+838,35,female,23.465,2,no,northeast,6402.29135,3201.145675,Healthy weight,29-39
+8,37,male,29.83,2,no,northeast,6406.4107,3203.20535,Overweight,29-39
+785,35,female,27.7,3,no,southwest,6414.178,2138.059333333333,Overweight,29-39
+660,37,male,46.53,3,no,southeast,6435.6237,2145.2079,Obese,29-39
+176,38,male,27.835,2,no,northwest,6455.86265,3227.931325,Overweight,29-39
+1173,38,male,29.26,2,no,northwest,6457.8434,3228.9217,Overweight,29-39
+1177,40,female,27.4,1,no,southwest,6496.886,6496.886,Overweight,40-49
+669,40,female,29.81,1,no,southeast,6500.2359,6500.2359,Overweight,40-49
+1063,36,male,28.595,3,no,northwest,6548.19505,2182.7316833333334,Overweight,29-39
+998,33,female,36.29,3,no,northeast,6551.7501,2183.9167,Obese,29-39
+426,38,female,27.265,1,no,northeast,6555.07035,6555.07035,Overweight,29-39
+611,38,female,34.8,2,no,southwest,6571.544,3285.772,Obese,29-39
+1221,40,male,24.97,2,no,southeast,6593.5083,3296.75415,Healthy weight,40-49
+325,40,male,34.105,1,no,northeast,6600.20595,6600.20595,Obese,40-49
+865,40,male,29.9,2,no,southwest,6600.361,3300.1805,Overweight,40-49
+209,40,male,41.23,1,no,northeast,6610.1097,6610.1097,Obese,40-49
+1226,38,male,16.815,2,no,northeast,6640.54485,3320.272425,Underweight,29-39
+408,38,male,21.12,3,no,southeast,6652.5288,2217.5096,Healthy weight,29-39
+877,33,male,33.44,5,no,southeast,6653.7886,1330.75772,Obese,29-39
+726,41,male,28.405,1,no,northwest,6664.68595,6664.68595,Overweight,40-49
+640,33,male,42.4,5,no,southwest,6666.243,1333.2486000000001,Obese,29-39
+119,37,female,23.37,2,no,northwest,6686.4313,3343.21565,Healthy weight,29-39
+234,39,male,24.51,2,no,northwest,6710.1919,3355.09595,Healthy weight,
+300,36,male,27.55,3,no,northeast,6746.7425,2248.914166666667,Overweight,29-39
+626,36,male,28.88,3,no,northeast,6748.5912,2249.5304,Overweight,29-39
+613,34,female,19.0,3,no,northeast,6753.038,2251.0126666666665,Healthy weight,29-39
+1262,41,female,28.05,1,no,southeast,6770.1925,6770.1925,Overweight,40-49
+188,41,female,32.2,1,no,southwest,6775.961,6775.961,Obese,40-49
+729,41,female,36.08,1,no,southeast,6781.3542,6781.3542,Obese,40-49
+505,37,male,30.875,3,no,northwest,6796.86325,2265.6210833333334,Obese,29-39
+71,31,male,28.5,5,no,northeast,6799.458,1359.8916,Overweight,29-39
+873,43,male,30.1,1,no,southwest,6849.026,6849.026,Obese,40-49
+1224,41,male,23.94,1,no,northeast,6858.4796,6858.4796,Healthy weight,40-49
+1309,41,male,32.2,2,no,southwest,6875.961,3437.9805,Obese,40-49
+1029,37,female,17.29,2,no,northeast,6877.9801,3438.99005,Underweight,29-39
+769,38,female,19.475,2,no,northwest,6933.24225,3466.621125,Healthy weight,29-39
+1310,42,male,26.315,1,no,northwest,6940.90985,6940.90985,Overweight,40-49
+1238,37,male,22.705,3,no,northeast,6985.50695,2328.5023166666665,Healthy weight,29-39
+776,40,male,32.3,2,no,northwest,6986.697,3493.3485,Obese,40-49
+1065,42,female,25.3,1,no,southwest,7045.499,7045.499,Overweight,40-49
+800,42,female,26.18,1,no,southeast,7046.7222,7046.7222,Overweight,40-49
+767,42,female,29.0,1,no,southwest,7050.642,7050.642,Overweight,40-49
+154,40,female,25.46,1,no,northeast,7077.1894,7077.1894,Overweight,40-49
+1290,38,female,19.95,2,no,northeast,7133.9025,3566.95125,Healthy weight,29-39
+991,38,female,27.835,2,no,northeast,7144.86265,3572.431325,Overweight,29-39
+1289,44,male,34.32,1,no,southeast,7147.4728,7147.4728,Obese,40-49
+861,38,female,28.0,3,no,southwest,7151.092,2383.697333333333,Overweight,29-39
+239,44,male,38.06,1,no,southeast,7152.6714,7152.6714,Obese,40-49
+1164,41,female,28.31,1,no,northwest,7153.5539,7153.5539,Overweight,40-49
+946,42,male,35.8,2,no,southwest,7160.094,3580.047,Obese,40-49
+835,42,male,35.97,2,no,southeast,7160.3303,3580.16515,Obese,40-49
+1227,42,male,37.18,2,no,southeast,7162.0122,3581.0061,Obese,40-49
+633,40,male,22.705,2,no,northeast,7173.35995,3586.679975,Healthy weight,40-49
+243,40,male,35.3,3,no,southwest,7196.867,2398.9556666666667,Obese,40-49
+1319,39,female,26.315,2,no,northwest,7201.70085,3600.850425,Overweight,
+794,39,female,31.92,2,no,northwest,7209.4918,3604.7459,Obese,
+1155,36,female,22.135,3,no,northeast,7228.21565,2409.4052166666665,Healthy weight,29-39
+891,36,female,29.04,4,no,southeast,7243.8136,1810.9534,Overweight,29-39
+567,41,male,30.59,2,no,northwest,7256.7231,3628.36155,Obese,40-49
+774,41,male,34.2,2,no,northwest,7261.741,3630.8705,Obese,40-49
+272,41,male,37.05,2,no,northwest,7265.7025,3632.85125,Obese,40-49
+7,37,female,27.74,3,no,northwest,7281.5056,2427.1685333333335,Overweight,29-39
+1263,43,female,29.9,1,no,southwest,7337.748,7337.748,Overweight,40-49
+415,43,female,35.64,1,no,southeast,7345.7266,7345.7266,Obese,40-49
+228,41,female,31.635,1,no,northeast,7358.17565,7358.17565,Obese,40-49
+215,41,female,37.1,2,no,southwest,7371.772,3685.886,Obese,40-49
+996,39,female,34.1,3,no,southwest,7418.522,2472.8406666666665,Obese,
+268,45,male,30.2,1,no,southwest,7441.053,7441.053,Obese,40-49
+598,43,male,32.6,2,no,southwest,7441.501,3720.7505,Obese,40-49
+230,42,female,36.195,1,no,northwest,7443.64305,7443.64305,Obese,40-49
+820,45,male,33.7,1,no,southwest,7445.918,7445.918,Obese,40-49
+450,39,male,29.6,4,no,southwest,7512.267,1878.06675,Overweight,
+967,44,male,25.365,1,no,northwest,7518.02535,7518.02535,Overweight,40-49
+1219,38,female,30.21,3,no,northwest,7537.1639,2512.3879666666667,Obese,29-39
+1136,44,female,25.0,1,no,southwest,7623.518,7623.518,Overweight,40-49
+985,44,female,25.8,1,no,southwest,7624.63,7624.63,Overweight,40-49
+913,44,female,27.5,1,no,southwest,7626.993,7626.993,Overweight,40-49
+907,44,female,32.34,1,no,southeast,7633.7206,7633.7206,Obese,40-49
+372,42,female,33.155,1,no,northeast,7639.41745,7639.41745,Obese,40-49
+596,42,female,29.48,2,no,southeast,7640.3092,3820.1546,Overweight,40-49
+1180,42,female,41.325,1,no,northeast,7650.77375,7650.77375,Obese,40-49
+459,40,female,33.0,3,no,southeast,7682.67,2560.89,Obese,40-49
+74,44,male,27.4,2,no,southwest,7726.854,3863.427,Overweight,40-49
+1160,43,female,34.58,1,no,northwest,7727.2532,7727.2532,Obese,40-49
+686,42,male,26.125,2,no,northeast,7729.64575,3864.822875,Overweight,40-49
+184,44,male,30.69,2,no,southeast,7731.4271,3865.71355,Obese,40-49
+120,44,male,37.1,2,no,southwest,7740.337,3870.1685,Obese,40-49
+285,46,male,26.62,1,no,southeast,7742.1098,7742.1098,Overweight,40-49
+309,41,female,33.06,2,no,northwest,7749.1564,3874.5782,Obese,40-49
+1141,41,female,32.6,3,no,southwest,7954.517,2651.5056666666665,Obese,40-49
+756,39,female,22.8,3,no,northeast,7985.815,2661.938333333333,Healthy weight,
+995,39,female,23.275,3,no,northeast,7986.47525,2662.1584166666667,Healthy weight,
+367,42,female,24.985,2,no,northwest,8017.06115,4008.530575,Healthy weight,40-49
+1050,44,female,36.955,1,no,northwest,8023.13545,8023.13545,Obese,40-49
+497,45,male,28.7,2,no,southwest,8027.968,4013.984,Overweight,40-49
+54,40,female,28.69,3,no,northwest,8059.6791,2686.5597000000002,Overweight,40-49
+766,47,male,32.3,1,no,southwest,8062.764,8062.764,Obese,40-49
+691,47,male,36.2,1,no,southwest,8068.185,8068.185,Obese,40-49
+401,47,male,47.52,1,no,southeast,8083.9198,8083.9198,Obese,40-49
+368,44,male,32.015,2,no,northwest,8116.26885,4058.134425,Obese,40-49
+211,40,male,30.875,4,no,northwest,8162.71625,2040.6790625,Obese,40-49
+498,44,female,23.98,2,no,southeast,8211.1002,4105.5501,Healthy weight,40-49
+823,44,female,29.81,2,no,southeast,8219.2039,4109.60195,Overweight,40-49
+339,46,female,27.72,1,no,southeast,8232.6388,8232.6388,Overweight,40-49
+538,46,female,28.05,1,no,southeast,8233.0975,8233.0975,Overweight,40-49
+6,46,female,33.44,1,no,southeast,8240.5896,8240.5896,Obese,40-49
+647,40,female,23.37,3,no,northeast,8252.2843,2750.761433333333,Healthy weight,40-49
+384,44,male,22.135,2,no,northeast,8302.53565,4151.267825,Healthy weight,40-49
+712,43,female,30.685,2,no,northwest,8310.83915,4155.419575,Obese,40-49
+347,46,male,33.345,1,no,northeast,8334.45755,8334.45755,Obese,40-49
+556,46,male,33.44,1,no,northeast,8334.5896,8334.5896,Obese,40-49
+528,46,male,39.425,1,no,northeast,8342.90875,8342.90875,Obese,40-49
+1121,46,male,38.17,2,no,southeast,8347.1643,4173.58215,Obese,40-49
+986,43,male,30.115,3,no,northwest,8410.04685,2803.34895,Obese,40-49
+517,45,male,30.495,2,no,northwest,8413.46305,4206.731525,Obese,40-49
+591,47,male,19.57,1,no,northwest,8428.0693,8428.0693,Healthy weight,40-49
+1234,45,female,27.83,2,no,southeast,8515.7587,4257.87935,Overweight,40-49
+197,45,female,28.6,2,no,southeast,8516.829,4258.4145,Overweight,40-49
+214,45,female,30.9,2,no,southwest,8520.026,4260.013,Obese,40-49
+396,43,female,34.4,3,no,southwest,8522.003,2840.6676666666667,Obese,40-49
+653,45,female,36.3,2,no,southeast,8527.532,4263.766,Obese,40-49
+179,41,female,33.155,3,no,northeast,8538.28845,2846.09615,Obese,40-49
+407,47,female,23.6,1,no,southwest,8539.671,8539.671,Healthy weight,40-49
+610,47,female,29.37,1,no,southeast,8547.6913,8547.6913,Overweight,40-49
+1076,47,female,32.0,1,no,southwest,8551.347,8551.347,Obese,40-49
+748,47,female,36.0,1,no,southwest,8556.907,8556.907,Obese,40-49
+1024,47,female,45.32,1,no,southeast,8569.8618,8569.8618,Obese,40-49
+1130,39,female,23.87,5,no,southeast,8582.3023,1716.4604599999998,Healthy weight,
+969,39,female,34.32,5,no,southeast,8596.8278,1719.3655599999997,Obese,
+1185,45,male,23.56,2,no,northeast,8603.8234,4301.9117,Healthy weight,40-49
+740,45,male,24.035,2,no,northeast,8604.48365,4302.241825,Healthy weight,40-49
+1109,45,male,20.35,3,no,southeast,8605.3615,2868.4538333333335,Healthy weight,40-49
+60,43,male,27.36,3,no,northeast,8606.2174,2868.739133333333,Overweight,40-49
+1269,45,male,27.5,3,no,southwest,8615.3,2871.7666666666664,Overweight,40-49
+1004,47,male,19.19,1,no,northeast,8627.5411,8627.5411,Healthy weight,40-49
+666,49,male,28.7,1,no,southwest,8703.456,8703.456,Overweight,
+1201,46,male,40.375,2,no,northwest,8733.22925,4366.614625,Obese,40-49
+1013,48,male,32.3,1,no,northwest,8765.249,8765.249,Obese,40-49
+178,46,female,28.9,2,no,southwest,8823.279,4411.6395,Overweight,40-49
+595,46,female,33.725,1,no,northeast,8823.98575,8823.98575,Obese,40-49
+537,46,female,30.2,2,no,southwest,8825.086,4412.543,Obese,40-49
+201,48,female,32.23,1,no,southeast,8871.1517,8871.1517,Obese,40-49
+874,44,male,21.85,3,no,northeast,8891.1395,2963.7131666666664,Healthy weight,40-49
+704,47,female,29.545,1,no,northwest,8930.93455,8930.93455,Overweight,40-49
+356,46,male,43.89,3,no,southeast,8944.1151,2981.3717,Obese,40-49
+392,48,male,31.445,1,no,northeast,8964.06055,8964.06055,Obese,40-49
+937,39,female,24.225,5,no,northwest,8965.79575,1793.15915,Healthy weight,
+424,48,male,30.2,2,no,southwest,8968.33,4484.165,Obese,40-49
+1066,48,male,37.29,2,no,southeast,8978.1851,4489.09255,Obese,40-49
+1140,50,male,37.07,1,no,southeast,9048.0273,9048.0273,Obese,50-59
+563,50,male,44.77,1,no,southeast,9058.7303,9058.7303,Obese,50-59
+764,45,female,25.175,2,no,northeast,9095.06825,4547.534125,Overweight,40-49
+1246,45,female,25.7,3,no,southwest,9101.798,3033.932666666667,Overweight,40-49
+622,49,female,21.3,1,no,southwest,9182.17,9182.17,Healthy weight,
+560,46,female,19.95,2,no,northwest,9193.8385,4596.91925,Healthy weight,40-49
+1116,41,male,29.64,5,no,northeast,9222.4026,1844.4805199999998,Overweight,40-49
+229,47,male,25.46,2,no,northeast,9225.2564,4612.6282,Overweight,40-49
+299,48,female,28.88,1,no,northwest,9249.4952,9249.4952,Overweight,40-49
+269,49,male,25.84,1,no,northeast,9282.4806,9282.4806,Overweight,
+1052,49,male,29.83,1,no,northeast,9288.0267,9288.0267,Overweight,
+393,49,male,31.35,1,no,northeast,9290.1395,9290.1395,Obese,
+1293,46,male,25.745,3,no,northwest,9301.89355,3100.6311833333334,Overweight,40-49
+481,49,male,37.51,2,no,southeast,9304.7019,4652.35095,Obese,
+1327,51,male,30.03,1,no,southeast,9377.9047,9377.9047,Obese,50-59
+782,51,male,35.97,1,no,southeast,9386.1613,9386.1613,Obese,50-59
+634,51,male,39.7,1,no,southwest,9391.346,9391.346,Obese,50-59
+394,46,female,32.3,2,no,northeast,9411.005,4705.5025,Obese,40-49
+810,46,female,30.8,3,no,southwest,9414.92,3138.306666666667,Obese,40-49
+286,46,female,48.07,2,no,northeast,9432.9253,4716.46265,Obese,40-49
+733,48,female,27.265,1,no,northeast,9447.25035,9447.25035,Overweight,40-49
+1183,48,female,27.36,1,no,northeast,9447.3824,9447.3824,Overweight,40-49
+963,46,male,24.795,3,no,northeast,9500.57305,3166.8576833333336,Healthy weight,40-49
+941,50,female,46.09,1,no,southeast,9549.5651,9549.5651,Obese,50-59
+484,48,male,34.3,3,no,southwest,9563.029,3187.6763333333333,Obese,40-49
+716,49,female,22.61,1,no,northwest,9566.9909,9566.9909,Healthy weight,
+735,49,female,34.77,1,no,northwest,9583.8933,9583.8933,Obese,
+273,50,male,27.455,1,no,northeast,9617.66245,9617.66245,Overweight,50-59
+357,47,male,29.83,3,no,northwest,9620.3307,3206.7769000000003,Overweight,40-49
+1144,50,male,32.3,2,no,southwest,9630.397,4815.1985,Obese,50-59
+978,45,female,39.995,3,no,northeast,9704.66805,3234.88935,Obese,40-49
+275,47,female,26.6,2,no,northeast,9715.841,4857.9205,Overweight,40-49
+578,52,male,30.2,1,no,southwest,9724.53,9724.53,Obese,50-59
+1088,52,male,47.74,1,no,southeast,9748.9106,9748.9106,Obese,50-59
+365,49,female,30.78,1,no,northeast,9778.3472,9778.3472,Obese,
+425,45,male,24.31,5,no,southeast,9788.8659,1957.7731800000001,Healthy weight,40-49
+650,49,female,42.68,2,no,southeast,9800.8882,4900.4441,Obese,
+279,51,female,21.56,1,no,southeast,9855.1314,9855.1314,Healthy weight,50-59
+527,51,female,25.8,1,no,southwest,9861.025,9861.025,Overweight,50-59
+846,51,female,34.2,1,no,southwest,9872.701,9872.701,Obese,50-59
+147,51,female,37.73,1,no,southeast,9877.6077,9877.6077,Obese,50-59
+483,51,female,39.5,1,no,southwest,9880.068,9880.068,Obese,50-59
+745,50,female,30.115,1,no,northwest,9910.35985,9910.35985,Obese,50-59
+1009,51,male,27.74,1,no,northeast,9957.7216,9957.7216,Overweight,50-59
+1203,51,male,32.3,1,no,northeast,9964.06,9964.06,Obese,50-59
+360,48,female,32.3,2,no,northeast,10043.249,5021.6245,Obese,40-49
+731,53,male,21.4,1,no,southwest,10065.413,10065.413,Healthy weight,50-59
+630,53,male,36.1,1,no,southwest,10085.846,10085.846,Obese,50-59
+932,46,male,25.8,5,no,southwest,10096.97,2019.3939999999998,Overweight,40-49
+724,50,female,27.075,1,no,northeast,10106.13425,10106.13425,Overweight,50-59
+711,50,female,23.54,2,no,southeast,10107.2206,5053.6103,Healthy weight,50-59
+124,47,female,33.915,3,no,northwest,10115.00885,3371.6696166666666,Obese,40-49
+992,50,female,31.6,2,no,southwest,10118.424,5059.212,Obese,50-59
+645,48,male,30.78,3,no,northeast,10141.1362,3380.3787333333335,Obese,40-49
+679,49,female,23.18,2,no,northwest,10156.7832,5078.3916,Healthy weight,
+707,49,male,28.69,3,no,northwest,10264.4421,3421.4807,Overweight,
+403,49,male,32.3,3,no,northwest,10269.46,3423.153333333333,Obese,
+1329,52,male,38.6,2,no,southwest,10325.206,5162.603,Obese,50-59
+1264,49,female,33.345,2,no,northeast,10370.91255,5185.456275,Obese,
+460,49,female,36.63,3,no,southeast,10381.4787,3460.4928999999997,Obese,
+165,47,male,28.215,4,no,northeast,10407.08585,2601.7714625,Overweight,40-49
+177,54,male,29.2,1,no,southwest,10436.096,10436.096,Overweight,50-59
+162,54,male,39.6,1,no,southwest,10450.552,10450.552,Obese,50-59
+489,53,male,31.16,1,no,northwest,10461.9794,10461.9794,Obese,50-59
+1107,50,female,26.22,2,no,northwest,10493.9458,5246.9729,Overweight,50-59
+775,51,male,33.33,3,no,southeast,10560.4917,3520.1639,Obese,50-59
+651,53,female,39.6,1,no,southeast,10579.711,10579.711,Obese,50-59
+1333,50,male,30.97,3,no,northwest,10600.5483,3533.5161000000003,Obese,50-59
+970,50,female,28.16,3,no,southeast,10702.6424,3567.547466666667,Overweight,50-59
+390,48,male,35.625,4,no,northeast,10736.87075,2684.2176875,Obese,40-49
+1148,55,male,21.5,1,no,southwest,10791.96,10791.96,Healthy weight,50-59
+16,52,female,30.78,1,no,northeast,10797.3362,10797.3362,Obese,50-59
+1213,52,female,33.3,2,no,southwest,10806.839,5403.4195,Obese,50-59
+1115,55,male,32.67,1,no,southeast,10807.4863,10807.4863,Obese,50-59
+110,54,male,33.63,1,no,northwest,10825.2537,10825.2537,Obese,50-59
+718,51,female,36.67,2,no,northwest,10848.1343,5424.06715,Obese,50-59
+1069,54,female,31.9,1,no,southeast,10928.849,10928.849,Obese,50-59
+91,53,female,24.795,1,no,northwest,10942.13205,10942.13205,Healthy weight,50-59
+148,53,female,37.43,1,no,northwest,10959.6947,10959.6947,Obese,50-59
+344,49,female,41.47,4,no,southeast,10977.2063,2744.301575,Obese,
+812,54,male,21.01,2,no,southeast,11013.7119,5506.85595,Healthy weight,50-59
+1154,48,female,27.93,4,no,northwest,11015.1747,2753.793675,Overweight,40-49
+83,48,female,41.23,4,no,northwest,11033.6617,2758.415425,Obese,40-49
+1135,50,female,28.12,3,no,northwest,11085.5868,3695.1955999999996,Overweight,50-59
+771,53,female,26.7,2,no,southwest,11150.78,5575.39,Overweight,50-59
+132,53,female,35.9,2,no,southwest,11163.568,5581.784,Obese,50-59
+553,52,female,31.73,2,no,northwest,11187.6567,5593.82835,Obese,50-59
+685,53,male,26.41,2,no,northeast,11244.3769,5622.18845,Overweight,50-59
+1101,53,male,28.6,3,no,southwest,11253.421,3751.1403333333333,Overweight,50-59
+721,53,male,36.6,3,no,southwest,11264.541,3754.8469999999998,Obese,50-59
+1315,18,male,28.31,1,no,northeast,11272.33139,11272.33139,Overweight,18-28
+1145,52,male,32.775,3,no,northwest,11289.10925,3763.0364166666664,Obese,50-59
+1094,50,female,33.7,4,no,southwest,11299.343,2824.83575,Obese,50-59
+1257,54,female,27.645,1,no,northwest,11305.93455,11305.93455,Overweight,50-59
+627,33,male,42.46,1,no,southeast,11326.71487,11326.71487,Obese,29-39
+1044,55,male,35.245,1,no,northeast,11394.06555,11394.06555,Obese,50-59
+405,52,female,38.38,2,no,northeast,11396.9002,5698.4501,Obese,50-59
+1332,52,female,44.7,3,no,southwest,11411.685,3803.895,Obese,50-59
+1256,51,female,36.385,3,no,northwest,11436.73815,3812.2460499999997,Obese,50-59
+114,52,male,32.205,3,no,northeast,11488.31695,3829.4389833333335,Obese,50-59
+1110,54,female,32.3,1,no,northeast,11512.405,11512.405,Obese,50-59
+258,51,male,24.415,4,no,northwest,11520.09985,2880.0249625,Healthy weight,50-59
+547,54,female,46.7,2,no,southwest,11538.421,5769.2105,Obese,50-59
+568,49,female,31.9,5,no,southwest,11552.904,2310.5808,Obese,
+1061,57,male,27.94,1,no,southeast,11554.2236,11554.2236,Overweight,50-59
+867,57,male,43.7,1,no,southwest,11576.13,11576.13,Obese,50-59
+945,56,female,35.8,1,no,southwest,11674.13,11674.13,Obese,50-59
+853,53,female,23.75,2,no,northeast,11729.6795,5864.83975,Healthy weight,50-59
+746,34,male,27.0,2,no,southwest,11737.84884,5868.92442,Overweight,29-39
+72,53,female,28.1,3,no,southwest,11741.726,3913.9086666666667,Overweight,50-59
+510,56,male,32.11,1,no,northeast,11763.0009,11763.0009,Obese,50-59
+283,55,female,32.395,1,no,northeast,11879.10405,11879.10405,Obese,50-59
+111,55,female,29.7,2,no,southwest,11881.358,5940.679,Overweight,50-59
+456,55,female,30.14,2,no,southeast,11881.9696,5940.9848,Obese,50-59
+1080,18,male,21.78,2,no,southeast,11884.04858,5942.02429,Healthy weight,18-28
+889,57,male,33.63,1,no,northwest,11945.1327,11945.1327,Obese,50-59
+73,58,male,32.01,1,no,southeast,11946.6259,11946.6259,Obese,50-59
+225,55,male,33.88,3,no,southeast,11987.1682,3995.7227333333335,Obese,50-59
+927,57,female,20.1,1,no,southwest,12032.326,12032.326,Healthy weight,50-59
+193,56,female,26.6,1,no,northwest,12044.342,12044.342,Overweight,50-59
+1035,54,female,23.0,3,no,southwest,12094.478,4031.4926666666665,Healthy weight,50-59
+1073,54,female,28.88,2,no,northeast,12096.6512,6048.3256,Overweight,50-59
+96,54,female,30.8,3,no,southwest,12105.32,4035.1066666666666,Obese,50-59
+302,56,female,37.51,2,no,southeast,12265.5069,6132.75345,Obese,50-59
+27,55,female,32.775,2,no,northwest,12268.63225,6134.316125,Obese,50-59
+862,55,female,33.535,2,no,northwest,12269.68865,6134.844325,Obese,50-59
+233,59,male,27.5,1,no,southwest,12333.828,12333.828,Overweight,
+1209,59,male,37.1,1,no,southwest,12347.172,12347.172,Obese,
+678,56,male,36.1,3,no,southwest,12363.547,4121.182333333333,Obese,50-59
+486,54,female,21.47,3,no,northwest,12475.3513,4158.450433333333,Healthy weight,50-59
+1232,54,female,24.605,3,no,northwest,12479.70895,4159.902983333333,Healthy weight,50-59
+676,55,female,40.81,3,no,southeast,12485.8009,4161.933633333333,Obese,50-59
+1018,54,female,35.815,3,no,northwest,12495.29085,4165.09695,Obese,50-59
+438,52,female,46.75,5,no,southeast,12592.5345,2518.5069,Obese,50-59
+957,24,male,26.79,1,no,northwest,12609.88702,12609.88702,Overweight,
+1330,57,female,25.74,2,no,southeast,12629.1656,6314.5828,Overweight,50-59
+467,56,female,33.82,2,no,northwest,12643.3778,6321.6889,Obese,50-59
+304,57,female,38.0,2,no,southwest,12646.207,6323.1035,Obese,50-59
+250,18,male,17.29,2,yes,northeast,12829.4551,6414.72755,Underweight,18-28
+580,59,male,25.46,1,no,northeast,12913.9924,12913.9924,Overweight,
+532,59,male,29.7,2,no,southeast,12925.886,6462.943,Overweight,
+278,59,male,31.79,2,no,southeast,12928.7911,6464.39555,Obese,
+639,56,male,33.66,4,no,southeast,12949.1554,3237.28885,Obese,50-59
+1192,58,female,32.395,1,no,northeast,13019.16105,13019.16105,Obese,50-59
+255,55,female,25.365,3,no,northeast,13047.33235,4349.1107833333335,Overweight,50-59
+717,60,male,24.32,1,no,northwest,13112.6048,13112.6048,Healthy weight,60-69
+574,57,female,34.295,2,no,northeast,13224.05705,6612.028525,Obese,50-59
+466,60,female,28.7,1,no,southwest,13224.693,13224.693,Overweight,60-69
+366,56,female,32.3,3,no,northeast,13430.265,4476.755,Obese,50-59
+56,58,female,31.825,2,no,northeast,13607.36875,6803.684375,Obese,50-59
+1191,41,female,21.755,1,no,northeast,13725.47184,13725.47184,Healthy weight,40-49
+435,60,male,33.11,3,no,southeast,13919.8229,4639.940966666666,Obese,60-69
+337,62,male,27.55,1,no,northwest,13937.6665,13937.6665,Overweight,60-69
+25,59,female,27.72,3,no,southeast,14001.1338,4667.0446,Overweight,
+231,59,female,27.83,3,no,southeast,14001.2867,4667.095566666667,Overweight,
+734,59,female,32.1,3,no,southwest,14007.222,4669.074,Obese,
+851,61,male,32.3,2,no,northwest,14119.62,7059.81,Obese,60-69
+66,61,female,39.1,2,no,southwest,14235.072,7117.536,Obese,60-69
+1068,63,male,21.66,1,no,northwest,14349.8544,14349.8544,Healthy weight,60-69
+1128,34,male,32.8,1,no,southwest,14358.36437,14358.36437,Obese,29-39
+912,59,female,26.695,3,no,northwest,14382.70905,4794.23635,Overweight,
+659,57,female,28.785,4,no,northeast,14394.39815,3598.5995375,Overweight,50-59
+418,64,male,39.16,1,no,southeast,14418.2804,14418.2804,Obese,60-69
+1157,23,female,23.18,2,no,northwest,14426.07385,7213.036925,Healthy weight,
+412,26,female,17.195,2,yes,northeast,14455.64405,7227.822025,Underweight,
+962,63,female,35.2,1,no,southeast,14474.675,14474.675,Obese,60-69
+1272,43,male,25.52,5,no,southeast,14478.33015,2895.66603,Overweight,40-49
+267,59,female,32.395,3,no,northeast,14590.63205,4863.544016666667,Obese,
+398,64,male,25.6,2,no,southwest,14988.432,7494.216,Overweight,60-69
+380,27,female,17.955,2,yes,northeast,15006.57945,7503.289725,Underweight,
+1084,62,female,30.495,2,no,northwest,15019.76005,7509.880025,Obese,60-69
+1079,63,male,33.66,3,no,southeast,15161.5344,5053.8448,Obese,60-69
+908,63,male,39.8,3,no,southwest,15170.069,5056.689666666666,Obese,60-69
+462,62,female,38.095,2,no,northeast,15230.32405,7615.162025,Obese,60-69
+593,21,female,21.85,1,yes,northeast,15359.1045,15359.1045,Healthy weight,
+480,63,male,41.325,3,no,northwest,15555.18875,5185.062916666667,Obese,60-69
+36,62,female,32.965,3,no,northwest,15612.19335,5204.06445,Obese,60-69
+1253,40,female,29.3,4,no,southwest,15828.82173,3957.2054325,Overweight,40-49
+825,64,female,31.825,2,no,northeast,16069.08475,8034.542375,Obese,60-69
+603,64,female,39.05,3,no,southeast,16085.1275,5361.7091666666665,Obese,60-69
+994,27,female,20.045,3,yes,northwest,16420.49455,5473.498183333333,Healthy weight,
+1026,19,male,26.03,1,yes,northwest,16450.8947,16450.8947,Overweight,
+378,64,female,30.115,3,no,northwest,16455.70785,5485.235949999999,Obese,60-69
+727,29,female,21.755,1,yes,northeast,16657.71745,16657.71745,Healthy weight,29-39
+1100,33,female,19.095,2,yes,northeast,16776.30405,8388.152025,Healthy weight,29-39
+983,27,female,30.59,1,no,northeast,16796.41194,16796.41194,Obese,
+261,20,female,26.84,1,yes,southeast,17085.2676,17085.2676,Overweight,
+754,24,male,33.63,4,no,northeast,17128.42608,4282.10652,Obese,
+1170,18,male,27.36,1,yes,northeast,17178.6824,17178.6824,Overweight,18-28
+266,40,male,19.8,1,yes,southeast,17179.522,17179.522,Healthy weight,40-49
+1000,30,male,22.99,2,yes,northwest,17361.7661,8680.88305,Healthy weight,29-39
+105,20,male,28.025,1,yes,northwest,17560.37975,17560.37975,Overweight,
+583,32,female,23.65,1,no,southeast,17626.23951,17626.23951,Healthy weight,29-39
+69,28,male,23.98,3,yes,southeast,17663.1442,5887.714733333333,Healthy weight,
+494,21,male,25.7,4,yes,southwest,17942.106,4485.5265,Overweight,
+143,29,male,29.735,2,no,northwest,18157.876,9078.938,Overweight,29-39
+858,25,female,32.23,1,no,southeast,18218.16139,18218.16139,Obese,
+1204,18,female,27.28,3,yes,southeast,18223.4512,6074.4837333333335,Overweight,18-28
+780,30,male,24.4,3,yes,southwest,18259.216,6086.405333333333,Healthy weight,29-39
+1184,23,female,28.49,1,yes,southeast,18328.2381,18328.2381,Overweight,
+417,36,female,22.6,2,yes,southwest,18608.262,9304.131,Healthy weight,29-39
+1314,30,female,23.655,3,yes,northwest,18765.87545,6255.291816666667,Healthy weight,29-39
+1011,43,male,20.13,2,yes,southeast,18767.7377,9383.86885,Healthy weight,40-49
+429,27,female,30.4,3,no,northwest,18804.7524,6268.250800000001,Obese,
+644,43,male,35.31,2,no,southeast,18806.14547,9403.072735,Obese,40-49
+1195,19,female,27.93,3,no,northwest,18838.70366,6279.567886666667,Overweight,
+1123,27,female,32.395,1,no,northeast,18903.49141,18903.49141,Obese,
+1162,30,male,38.83,1,no,southeast,18963.17192,18963.17192,Obese,29-39
+142,34,male,25.3,2,yes,southeast,18972.495,9486.2475,Overweight,29-39
+1085,39,female,18.3,5,yes,southwest,19023.26,3804.6519999999996,Underweight,
+762,33,male,27.1,1,yes,southwest,19040.876,19040.876,Overweight,29-39
+117,29,female,27.94,1,yes,southeast,19107.7796,19107.7796,Overweight,29-39
+334,43,female,35.72,2,no,northeast,19144.57652,9572.28826,Obese,40-49
+982,31,male,25.9,3,yes,southwest,19199.944,6399.981333333333,Overweight,29-39
+730,35,male,24.42,3,yes,southeast,19361.9988,6453.9996,Healthy weight,29-39
+305,29,male,33.345,2,no,northwest,19442.3535,9721.17675,Obese,29-39
+235,40,female,22.22,2,yes,southeast,19444.2658,9722.1329,Healthy weight,40-49
+1318,35,male,39.71,4,no,northeast,19496.71917,4874.1797925,Obese,29-39
+465,30,female,28.38,1,yes,southeast,19521.9682,19521.9682,Overweight,29-39
+411,44,female,20.235,1,yes,northeast,19594.80965,19594.80965,Healthy weight,40-49
+885,32,male,28.93,1,yes,southeast,19719.6947,19719.6947,Overweight,29-39
+159,50,female,27.83,3,no,southeast,19749.38338,6583.127793333333,Overweight,50-59
+896,43,female,20.045,2,yes,northeast,19798.05455,9899.027275,Healthy weight,40-49
+949,25,male,29.7,3,yes,southwest,19933.458,6644.486,Overweight,
+954,34,male,27.835,1,yes,northwest,20009.63365,20009.63365,Overweight,29-39
+306,28,female,27.5,2,no,southwest,20177.67113,10088.835565,Overweight,
+291,29,male,29.64,1,no,northeast,20277.80751,20277.80751,Overweight,29-39
+1208,37,female,25.555,1,yes,northeast,20296.86345,20296.86345,Overweight,29-39
+264,53,female,38.06,3,no,southeast,20462.99766,6820.999220000001,Obese,50-59
+144,30,male,28.69,3,yes,northwest,20745.9891,6915.329699999999,Overweight,29-39
+827,36,male,28.025,1,yes,northeast,20773.62775,20773.62775,Overweight,29-39
+207,35,male,27.74,2,yes,northeast,20984.0936,10492.0468,Overweight,29-39
+514,39,male,28.3,1,yes,southwest,21082.16,21082.16,Overweight,
+85,45,male,22.895,2,yes,northwest,21098.55405,10549.277025,Healthy weight,40-49
+1304,42,male,24.605,2,yes,northeast,21259.37795,10629.688975,Healthy weight,40-49
+1307,32,male,28.12,4,yes,northwest,21472.4788,5368.1197,Overweight,29-39
+376,39,female,24.89,3,yes,northeast,21659.9301,7219.9767,Healthy weight,
+1030,46,female,23.655,1,yes,northwest,21677.28345,21677.28345,Healthy weight,40-49
+1188,43,female,25.27,1,yes,northeast,21771.3423,21771.3423,Overweight,40-49
+1045,43,female,24.7,2,yes,northwest,21880.82,10940.41,Healthy weight,40-49
+297,47,male,25.41,1,yes,southeast,21978.6769,21978.6769,Overweight,40-49
+661,57,female,23.98,1,no,southeast,22192.43711,22192.43711,Healthy weight,50-59
+502,51,male,23.21,1,yes,southeast,22218.1149,22218.1149,Healthy weight,50-59
+280,40,female,28.12,1,yes,northeast,22331.5668,22331.5668,Overweight,40-49
+1328,23,female,24.225,2,no,northeast,22395.74424,11197.87212,Healthy weight,
+1278,39,male,29.925,1,yes,northeast,22462.04375,22462.04375,Overweight,
+1171,43,female,26.7,2,yes,southwest,22478.6,11239.3,Overweight,40-49
+1039,19,male,27.265,2,no,northwest,22493.65964,11246.82982,Overweight,
+1008,25,male,24.985,2,no,northeast,23241.47453,11620.737265,Healthy weight,
+58,53,female,22.88,1,yes,southeast,23244.7902,23244.7902,Healthy weight,50-59
+468,28,female,24.32,1,no,northeast,23288.9284,23288.9284,Healthy weight,
+617,49,male,25.6,2,yes,southwest,23306.547,11653.2735,Overweight,
+818,47,female,26.125,1,yes,northeast,23401.30575,23401.30575,Overweight,40-49
+1211,39,male,34.1,2,no,southeast,23563.01618,11781.50809,Obese,
+52,48,male,28.0,1,yes,southwest,23568.272,23568.272,Overweight,40-49
+545,49,male,25.84,2,yes,northwest,23807.2406,11903.6203,Overweight,
+1176,52,female,24.13,1,yes,northwest,23887.6627,23887.6627,Healthy weight,50-59
+966,51,male,24.795,2,yes,northwest,23967.38305,11983.691525,Healthy weight,50-59
+526,19,female,30.59,2,no,northwest,24059.68019,12029.840095,Obese,
+854,49,female,23.845,3,yes,northeast,24106.91255,8035.637516666667,Healthy weight,
+1112,48,female,25.85,3,yes,southeast,24180.9335,8060.311166666666,Overweight,40-49
+783,50,female,27.6,1,yes,southwest,24520.264,24520.264,Overweight,50-59
+1281,47,female,27.645,2,yes,northwest,24535.69855,12267.849275,Overweight,40-49
+655,52,female,25.3,2,yes,southeast,24667.419,12333.7095,Overweight,50-59
+321,26,female,29.64,4,no,northeast,24671.66334,6167.915835,Overweight,
+262,52,male,24.32,3,yes,northeast,24869.8368,8289.945600000001,Healthy weight,50-59
+301,53,female,22.61,3,yes,northeast,24873.3849,8291.1283,Healthy weight,50-59
+637,35,female,38.095,2,no,northeast,24915.04626,12457.52313,Obese,29-39
+1007,47,male,28.215,3,yes,northwest,24915.22085,8305.073616666667,Overweight,40-49
+1053,47,male,29.8,3,yes,southwest,25309.489,8436.496333333334,Overweight,40-49
+925,50,male,32.11,2,no,northeast,25333.33284,12666.66642,Obese,50-59
+474,54,male,25.1,3,yes,southwest,25382.297,8460.765666666666,Overweight,50-59
+980,54,male,25.46,1,no,northeast,25517.11363,25517.11363,Overweight,50-59
+289,52,male,26.4,3,no,southeast,25992.82104,8664.27368,Overweight,50-59
+1019,21,female,32.68,2,no,northwest,26018.95052,13009.47526,Obese,
+444,56,male,26.695,1,yes,northwest,26109.32905,26109.32905,Overweight,50-59
+876,49,female,27.1,1,no,southwest,26140.3603,26140.3603,Overweight,
+688,47,female,24.1,1,no,southwest,26236.57997,26236.57997,Healthy weight,40-49
+658,48,female,35.91,1,no,northeast,26392.26029,26392.26029,Obese,40-49
+964,52,male,36.765,2,no,northwest,26467.09737,13233.548685,Obese,50-59
+379,62,male,31.46,1,no,southeast,27000.98473,27000.98473,Obese,60-69
+138,54,female,31.9,3,no,southeast,27322.73386,9107.577953333333,Obese,50-59
+140,34,male,22.42,2,no,northeast,27375.90478,13687.95239,Healthy weight,29-39
+516,20,male,35.31,1,no,southeast,27724.28875,27724.28875,Obese,
+770,61,male,36.1,3,no,southwest,27941.28758,9313.762526666667,Obese,60-69
+443,59,female,36.52,1,no,southeast,28287.89766,28287.89766,Obese,
+987,45,female,27.645,1,no,northwest,28340.18885,28340.18885,Overweight,40-49
+959,48,male,36.67,1,no,northwest,28468.91901,28468.91901,Obese,40-49
+806,40,female,41.42,1,no,northwest,28476.73499,28476.73499,Obese,40-49
+475,61,male,28.31,1,yes,northwest,28868.6639,28868.6639,Overweight,60-69
+696,53,female,32.3,2,no,northeast,29186.48236,14593.24118,Obese,50-59
+1258,55,male,37.715,3,no,northwest,30063.58055,10021.193516666666,Obese,50-59
+62,64,male,24.7,1,no,northwest,30166.61817,30166.61817,Healthy weight,60-69
+92,59,male,29.83,3,yes,northeast,30184.9367,10061.645566666666,Overweight,
+387,50,male,25.365,2,no,northwest,30284.64294,15142.32147,Overweight,50-59
+103,61,female,29.92,3,yes,southeast,30942.1918,10314.063933333333,Overweight,60-69
+573,62,female,36.86,1,no,northeast,31620.00106,31620.00106,Obese,60-69
+936,44,male,29.735,2,no,northeast,32108.66282,16054.33141,Overweight,40-49
+128,32,female,17.765,2,yes,northwest,32734.1863,16367.09315,Underweight,29-39
+641,42,male,28.31,3,yes,northwest,32787.45859,10929.152863333335,Overweight,40-49
+599,52,female,37.525,2,no,northwest,33471.97189,16735.985945,Obese,50-59
+57,18,male,31.68,2,yes,southeast,34303.1672,17151.5836,Obese,18-28
+689,27,male,31.13,1,yes,southeast,34806.4677,34806.4677,Obese,
+242,55,female,26.8,1,no,southwest,35160.13457,35160.13457,Overweight,50-59
+1021,22,female,31.02,3,yes,southeast,35595.5898,11865.196600000001,Obese,
+842,23,female,32.78,2,yes,southeast,36021.0112,18010.5056,Obese,
+373,26,male,32.9,2,yes,southwest,36085.219,18042.6095,Obese,
+1117,25,male,33.33,2,yes,southeast,36124.5737,18062.28685,Obese,
+738,23,male,31.73,3,yes,northeast,36189.1017,12063.0339,Obese,
+1313,19,female,34.7,2,yes,southwest,36397.576,18198.788,Obese,
+1012,61,female,33.33,4,no,southeast,36580.28216,9145.07054,Obese,60-69
+1206,59,female,34.8,2,no,southwest,36910.60803,18455.304015,Obese,
+82,22,male,37.62,1,yes,southeast,37165.1638,37165.1638,Obese,
+1186,20,male,35.625,3,yes,northwest,37465.34375,12488.447916666666,Obese,
+1036,22,male,37.07,2,yes,southeast,37484.4493,18742.22465,Obese,
+1249,32,male,33.63,1,yes,northeast,37607.5277,37607.5277,Obese,29-39
+23,34,female,31.92,1,yes,northeast,37701.8768,37701.8768,Obese,29-39
+524,42,male,26.07,1,yes,southeast,38245.59327,38245.59327,Overweight,40-49
+1118,33,male,35.75,1,yes,southeast,38282.7495,38282.7495,Obese,29-39
+1288,20,male,39.4,2,yes,southwest,38344.566,19172.283,Obese,
+1207,36,male,33.4,2,yes,southwest,38415.474,19207.737,Obese,29-39
+240,23,female,36.67,2,yes,northeast,38511.6283,19255.81415,Obese,
+49,36,male,35.2,1,yes,southeast,38709.176,38709.176,Obese,29-39
+29,31,male,36.3,2,yes,southwest,38711.0,19355.5,Obese,29-39
+298,31,male,34.39,3,yes,northwest,38746.3551,12915.4517,Obese,29-39
+953,44,male,30.2,2,yes,southwest,38998.546,19499.273,Obese,40-49
+947,37,male,34.2,1,yes,northeast,39047.285,39047.285,Obese,29-39
+422,40,male,32.775,1,yes,northeast,39125.33225,39125.33225,Obese,40-49
+609,30,male,37.8,2,yes,southwest,39241.442,19620.721,Obese,29-39
+123,44,male,31.35,1,yes,northeast,39556.4945,39556.4945,Obese,40-49
+828,41,male,30.78,3,yes,northeast,39597.4072,13199.135733333334,Obese,40-49
+1037,45,female,30.495,1,yes,northwest,39725.51805,39725.51805,Obese,40-49
+38,35,male,36.67,1,yes,northeast,39774.2763,39774.2763,Obese,29-39
+84,37,female,34.8,2,yes,southwest,39836.519,19918.2595,Obese,29-39
+1070,37,male,37.07,1,yes,southeast,39871.7043,39871.7043,Obese,29-39
+558,35,female,34.105,3,yes,northwest,39983.42595,13327.808649999999,Obese,29-39
+667,40,female,32.775,2,yes,northwest,40003.33225,20001.666125,Obese,40-49
+682,39,male,35.3,2,yes,southwest,40103.89,20051.945,Obese,
+621,37,male,34.1,4,yes,southwest,40182.246,10045.5615,Obese,29-39
+697,41,male,35.75,1,yes,southeast,40273.6455,40273.6455,Obese,40-49
+146,46,male,30.495,3,yes,northwest,40720.55105,13573.517016666667,Obese,40-49
+1124,23,female,42.75,1,yes,northeast,40904.1995,40904.1995,Obese,
+725,30,female,39.05,3,yes,southeast,40932.4295,13644.143166666667,Obese,29-39
+1152,43,female,32.56,3,yes,southeast,40941.2854,13647.095133333334,Obese,40-49
+958,43,male,34.96,1,yes,northeast,41034.2214,41034.2214,Obese,40-49
+1218,46,female,34.6,1,yes,southwest,41661.602,41661.602,Obese,40-49
+338,50,male,32.3,1,yes,northeast,41919.097,41919.097,Obese,50-59
+1111,38,male,38.39,3,yes,southeast,41949.2441,13983.081366666667,Obese,29-39
+956,54,male,30.8,1,yes,southeast,41999.52,41999.52,Obese,50-59
+292,25,male,45.54,2,yes,southeast,42112.2356,21056.1178,Obese,
+312,43,male,35.97,3,yes,southeast,42124.5153,14041.5051,Obese,40-49
+1022,47,male,36.08,1,yes,southeast,42211.1382,42211.1382,Obese,40-49
+665,43,male,38.06,2,yes,southeast,42560.4304,21280.2152,Obese,40-49
+327,45,male,36.48,2,yes,northwest,42760.5022,21380.2511,Obese,40-49
+271,50,male,34.2,2,yes,southwest,42856.838,21428.419,Obese,50-59
+615,47,female,36.63,1,yes,southeast,42969.8527,42969.8527,Obese,40-49
+185,36,male,41.895,3,yes,northeast,43753.33705,14584.445683333333,Obese,29-39
+826,56,male,31.79,2,yes,southeast,43813.8661,21906.93305,Obese,50-59
+1323,42,female,40.37,2,yes,southeast,43896.3763,21948.18815,Obese,40-49
+587,34,female,30.21,1,yes,northwest,43943.8761,43943.8761,Obese,29-39
+893,47,male,38.94,2,yes,southeast,44202.6536,22101.3268,Obese,40-49
+252,54,male,34.21,2,yes,southeast,44260.7499,22130.37495,Obese,50-59
+1047,22,male,52.58,1,yes,southeast,44501.3982,44501.3982,Obese,
+739,29,male,35.5,2,yes,southwest,44585.45587,22292.727935,Obese,29-39
+1096,51,female,34.96,2,yes,northeast,44641.1974,22320.5987,Obese,50-59
+569,48,male,40.565,2,yes,northwest,45702.02235,22851.011175,Obese,40-49
+860,37,female,47.6,2,yes,southwest,46113.511,23056.7555,Obese,29-39
+677,60,male,31.35,3,yes,northwest,46130.5265,15376.842166666667,Obese,60-69
+265,46,male,42.35,3,yes,southeast,46151.1245,15383.708166666665,Obese,40-49
+674,44,female,43.89,2,yes,southeast,46200.9851,23100.49255,Obese,40-49
+883,51,female,37.05,3,yes,northeast,46255.1125,15418.370833333334,Obese,50-59
+1122,53,female,36.86,3,yes,northwest,46661.4424,15553.814133333333,Obese,50-59
+1301,62,male,30.875,3,yes,northwest,46718.16325,15572.721083333332,Obese,60-69
+1240,52,male,41.8,2,yes,southeast,47269.854,23634.927,Obese,50-59
+94,64,female,31.3,2,yes,southwest,47291.055,23645.5275,Obese,60-69
+251,63,female,32.2,2,yes,southwest,47305.305,23652.6525,Obese,60-69
+1284,61,male,36.3,1,yes,southwest,47403.88,47403.88,Obese,60-69
+951,51,male,42.9,2,yes,southeast,47462.894,23731.447,Obese,50-59
+55,58,male,36.955,2,yes,northwest,47496.49445,23748.247225,Obese,50-59
+288,59,female,36.765,1,yes,northeast,47896.79135,47896.79135,Obese,
+328,64,female,33.8,1,yes,southwest,47928.03,47928.03,Obese,60-69
+330,61,female,36.385,1,yes,northeast,48517.56315,48517.56315,Obese,60-69
+281,54,male,40.565,3,yes,northeast,48549.17835,16183.05945,Obese,50-59
+530,57,male,42.13,1,yes,southeast,48675.5177,48675.5177,Obese,50-59
+1062,59,male,41.14,1,yes,southeast,48970.2476,48970.2476,Obese,
+1241,64,male,36.96,2,yes,southeast,49577.6624,24788.8312,Obese,60-69
+34,28,male,36.4,1,yes,southwest,51194.55914,51194.55914,Obese,
+577,31,female,38.095,1,yes,northeast,58571.07448,58571.07448,Obese,29-39
+1230,52,male,34.485,3,yes,northwest,60021.39897,20007.132990000002,Obese,50-59
