@@ -4,6 +4,8 @@
 
 Welcome to our project on analyzing the factors affecting insurance pricing. The insurance industry is a vital component of the global economy, providing financial protection and risk management solutions to individuals and businesses alike. Understanding the factors that affect insurance pricing is important for insurers to make informed pricing decisions, for consumers to make informed purchase decisions, and for policymakers to regulate the industry effectively. By analyzing a  insurance pricing dataset, we targeted the impact of changes in law, technology, and consumer preferences on insurance pricing, ultimately contributing to a more transparent and efficient insurance market through our research and visualizations.
 
+Our team was interested in analyzing this dataset as we were curious what variables influence higher charges, and to what affect. We chose this dataset as it was clean, straightforward, relevant, and interesting to analyze. This topic is relevant to us and to many others as we will likely purchase life insurance policies throughout our adult lives. 
+
 ---
 
 ## Exploratory Data Analysis
@@ -53,21 +55,31 @@ Analyzing the basic relationship between number of children and insurance charge
 
 **2. Considering Sex**
 
-Next I wanted to look at the relationship considering the variable of sex. Do men or women have higher insurance charges when considering the number of children?
+Do men or women have higher insurance charges when considering the number of children?
 ![Considering Sex Plot](images/sexplot3.png)
 Analyzing the relationship reveals that men generally have higher insurance charges, regardless of the number of children. The exception to this statement exists for 4 and 5 children, likely due to the skew in the dataset.
 
 **3. Considering BMI Category**
 
+What BMI category has the highest insurance charges when considering number of children?
 ![Considering BMI Plot](images/bmiplot3.png)
+Analyzing the relationship reveals that obese individuals have the highest insurance charges, regardless of the number of children they have. Highest insurance charges are then followed by those who are overweight, and then those who are healthy weight. The data for underweight individuals is skewed, likely due to very few individuals in the dataset being underweight. 
 
 **4. Considering Smoker Status**
 
+Do smokers or non-smokers have higher insurance charges when considering number of children?
 ![Considering Smoker Status](images/smokerplot3.png)
+Analyzing the relationship shows that overall, smokers have much higher charges than non-smokers. This relationship occurs regardless of the number of children the individual has. The only exception to this statement is for the 5 children column, where the data may be skewed due to very few or no smokers with 5 children present in the dataset.
+
 
 **5. Considering Age**
 
+What age category has the highest insurance charges, considering children?
 ![Considering Age Plot](images/ageplot3.png)
+![Considering Age Plot](images/ageplot3.2.png)
+Analyzing these plots reveals that regardless of number of children, insurance charges increase exponentially with age. This is the most clear linear relationship in my analysis. Alongside being a smoker, older age is probably the most indicative variable of higher insurance charges. 
+
+In my analysis, I was very interested in how (or if) number of children plays a role in determining insurance charges. I did this by analyzing the relationship alone, and then by considering other variables present in the dataset. In conclusion, I found that number of children alone does not play a large role in how an individual's insurance charges are determined. The variable of number of children was likely added to the dataset to supplement the available information and provide background into the profiles of insurance policy purchasers. 
 
 ---
 ## Summary & Conclusions
