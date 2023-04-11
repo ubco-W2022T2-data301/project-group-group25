@@ -1,15 +1,18 @@
-# Group 25 - 
+# Group 25 -
+
 ## Introduction
+
 Welcome to our project on analyzing the factors affecting insurance pricing. The insurance industry is a vital component of the global economy, providing financial protection and risk management solutions to individuals and businesses alike. Understanding the factors that affect insurance pricing is important for insurers to make informed pricing decisions, for consumers to make informed purchase decisions, and for policymakers to regulate the industry effectively. By analyzing a  insurance pricing dataset, we targeted the impact of changes in law, technology, and consumer preferences on insurance pricing, ultimately contributing to a more transparent and efficient insurance market through our research and visualizations.
+
+---
 
 ## Exploratory Data Analysis
 
+---
 
 ## Question 1 & Analysis (Prabh)
 
-### Research question: 
-    
-##### - How have changes in law, technology, and consumer preferences affected the pricing of insurance policies over the past decade?
+### **How have changes in law, technology, and consumer preferences affected the pricing of insurance policies over the past decade?**
 
 1. As we delved into the relationship between smoking status and insurance costs, we found that smokers generally have higher costs compared to non-smokers. We decided to create box plots to visualize the distribution of insurance costs for smokers and non-smokers. Our analysis revealed a clear distinction between the two groups, with smokers having significantly higher costs. This insight can be valuable to insurance companies when determining policy premiums for smokers, as they pose a higher financial risk.
 ![Boxplot](images/boxplot.png)
@@ -29,10 +32,42 @@ Following that, I explored the connection between age and insurance costs. Our s
 
 Finally, I examined the influence of region and the number of children on insurance costs. Our dataset revealed variations in costs across different regions and for families with varying numbers of children. Multiple regression analysis validated the importance of these factors in forecasting higher insurance costs. This data can help insurance providers in creating region-specific policies and effectively targeting their marketing efforts.
 
+---
+
 ## Question 2 & Analysis (Som)
 
+### **Research Question here**
+
+---
 
 ## Question 3 & Analysis (Nadia)
 
+### **How does the number of children an individual has influence their insurance charges?**
 
+I was interested in examining the relationship between number of children and insurance charges, and whether there was a direct correlation between the two. I was curious whether number of children was a determining variable indicative of higher insurance charges, or whether it was a descriptive variable added to the dataset for more background information. To answer my research question, I analyzed the relationship alone, and considering the other variables of sex, BMI, smoker status, and age.
+
+**1. Basic Relationship**
+
+![Basic Relationship Plot](images/basicplot3.png)
+Analyzing the basic relationship between number of children and insurance charges shows that charges gradually increase from 1 to 3 children, before dropping at 4 children and drastically dropping at 5 children. This is likely skewed due to the fact that less people in the dataset have 4 and 5 children in comparison to 1, 2, and 3 children. If the data was not skewed, we may see a positive linear relationship between insurance charges and number of children. However, it's important to consider the other variables at play.
+
+**2. Considering Sex**
+
+Next I wanted to look at the relationship considering the variable of sex. Do men or women have higher insurance charges when considering the number of children?
+![Considering Sex Plot](images/sexplot3.png)
+Analyzing the relationship reveals that men generally have higher insurance charges, regardless of the number of children. The exception to this statement exists for 4 and 5 children, likely due to the skew in the dataset.
+
+**3. Considering BMI Category**
+
+![Considering BMI Plot](images/bmiplot3.png)
+
+**4. Considering Smoker Status**
+
+![Considering Smoker Status](images/smokerplot3.png)
+
+**5. Considering Age**
+
+![Considering Age Plot](images/ageplot3.png)
+
+---
 ## Summary & Conclusions
