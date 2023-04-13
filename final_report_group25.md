@@ -42,7 +42,7 @@ Finally, I examined the influence of region and the number of children on insura
 
 ![Sex Count Plot](images/sex_count_graph2.png)
 
-**Observation:
+**Observation:**
 
 When reviewing this chart, we can deduce that there is no substantial difference between the amount of men and woman that were assesed for the dataset. Based on this observation we can assure that our conclusions will not be biased towards one sex or another because the data was equally inclusive towards both groups.
 
