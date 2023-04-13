@@ -1,4 +1,4 @@
-# Group 25 -
+# Group 25 - Insurance Charge Factors
 
 ## Introduction
 
@@ -9,6 +9,13 @@ Our team was interested in analyzing this dataset as we were curious what variab
 ---
 
 ## Exploratory Data Analysis
+
+One of the first questions we had about the dataset is what variables play roles in determining insurance charges, and to what extent. Before forming our research questions, we created a few visualizations to help us gain a better understanding of our dataset. 
+
+![Insurance charges by number of children](images/EDA3.png)
+This visualization sparked some curiosity in us. What mediating factors exist in the relationship between number of children and insurance charges? Is number of children a determining factor in higher charges, and to what extent? How do age, gender, sex, and smoker status support or disprove the idea that individuals with 3 children have the highest insurance charges?
+
+This visualization served as the basis for research question & analysis 3 (Nadia).
 
 ---
 
@@ -103,45 +110,64 @@ From our analysis we discovered some fascinating details about the influence of 
 
 In the end, Smoker status proved to impact insurance costs the most on average, followed by Age, BMI, number of children, and lastly region. We were able to deduce this by comparing the outliers with higher costs and their lower averages within each category; the difference in cost gave us an estimate.
 
+---
 
 ## Question 3 & Analysis (Nadia)
 
 ### **How does the number of children an individual has influence their insurance charges?**
 
-I was interested in examining the relationship between number of children and insurance charges, and whether there was a direct correlation between the two. I was curious whether number of children was a determining variable indicative of higher insurance charges, or whether it was a descriptive variable added to the dataset for more background information. To answer my research question, I analyzed the relationship alone, and considering the other variables of sex, BMI, smoker status, and age.
+I was interested in examining the relationship between number of children and insurance charges, and whether there was a direct correlation between the two. I was curious whether number of children was a determining variable indicative of higher insurance charges, or whether it was a descriptive variable added to the dataset for more background information. 
 
-**1. Basic Relationship**
+To answer my research question, I analyzed the relationship alone, and considering the other variables of sex, BMI, smoker status, and age.
 
-![Basic Relationship Plot](images/basicplot3.png)
-Analyzing the basic relationship between number of children and insurance charges shows that charges gradually increase from 1 to 3 children, before dropping at 4 children and drastically dropping at 5 children. This is likely skewed due to the fact that less people in the dataset have 4 and 5 children in comparison to 1, 2, and 3 children. If the data was not skewed, we may see a positive linear relationship between insurance charges and number of children. However, it's important to consider the other variables at play.
 
-**2. Considering Sex**
+As we saw in the EDA, the basic relationship between number of children and insurance charges shows that charges gradually increase from 1 to 3 children, before dropping at 4 children and drastically dropping at 5 children. This is likely skewed due to the fact that less people in the dataset have 4 and 5 children in comparison to 1, 2, and 3 children. If the data was not skewed, we may see a positive linear relationship between insurance charges and number of children. 
 
-Do men or women have higher insurance charges when considering the number of children?
+However, it's important to consider the other variables at play.
+
+**1. Considering Sex**: Do men or women have higher insurance charges when considering the number of children?
 ![Considering Sex Plot](images/sexplot3.png)
-Analyzing the relationship reveals that men generally have higher insurance charges, regardless of the number of children. The exception to this statement exists for 4 and 5 children, likely due to the skew in the dataset.
+Analyzing the relationship initially reveals that men generally have higher insurance charges, regardless of the number of children they have. The exception to this statement exists for 4 and 5 children, likely due to the skew in the dataset.
 
-**3. Considering BMI Category**
+However, through analysis with Som's research question and visualizations, we find that this is due to a higher count of men in the dataset, and that it is not a reliable relationship due to the skew. We can consider sex to be a negligible variable in determining insurance charges, even when considering children. 
 
-What BMI category has the highest insurance charges when considering number of children?
+**2. Considering BMI Category**: What BMI category has the highest insurance charges when considering number of children?
 ![Considering BMI Plot](images/bmiplot3.png)
-Analyzing the relationship reveals that obese individuals have the highest insurance charges, regardless of the number of children they have. Highest insurance charges are then followed by those who are overweight, and then those who are healthy weight. The data for underweight individuals is skewed, likely due to very few individuals in the dataset being underweight. 
+Analyzing the relationship reveals that obese individuals have the highest insurance charges, regardless of the number of children they have. Highest insurance charges are then followed by those who are overweight, and then those who are healthy weight. This suggests that the higher an individual's BMI is, the higher their insurance charges will be. 
 
-**4. Considering Smoker Status**
+The data for underweight individuals is skewed, likely due to very few individuals in the dataset being underweight. 
 
-Do smokers or non-smokers have higher insurance charges when considering number of children?
+**3. Considering Smoker Status**: Do smokers or non-smokers have higher insurance charges when considering number of children?
 ![Considering Smoker Status](images/smokerplot3.png)
-Analyzing the relationship shows that overall, smokers have much higher charges than non-smokers. This relationship occurs regardless of the number of children the individual has. The only exception to this statement is for the 5 children column, where the data may be skewed due to very few or no smokers with 5 children present in the dataset.
+Analyzing the relationship shows that overall, smokers have much higher charges than non-smokers. This relationship occurs regardless of the number of children the individual has. This appears to be the strongest relationship, suggesting smoker status is the most indicative variable in higher charges. 
+
+ The only exception to this statement is for the 5 children column, where the data may be skewed due to very few or no smokers with 5 children present in the dataset.
 
 
-**5. Considering Age**
+**4. Considering Age**
 
 What age category has the highest insurance charges, considering children?
 ![Considering Age Plot](images/ageplot3.png)
 ![Considering Age Plot](images/ageplot3.2.png)
 Analyzing these plots reveals that regardless of number of children, insurance charges increase exponentially with age. This is the most clear linear relationship in my analysis. Alongside being a smoker, older age is probably the most indicative variable of higher insurance charges. 
 
-In my analysis, I was very interested in how (or if) number of children plays a role in determining insurance charges. I did this by analyzing the relationship alone, and then by considering other variables present in the dataset. In conclusion, I found that number of children alone does not play a large role in how an individual's insurance charges are determined. The variable of number of children was likely added to the dataset to supplement the available information and provide background into the profiles of insurance policy purchasers. 
+### Conclusion 
+
+ I was very interested in how (or if) number of children plays a role in determining insurance charges. I did this by analyzing the relationship alone, and then by considering other variables present in the dataset. In conclusion, I found that number of children alone does not play a large role in how an individual's insurance charges are determined. The variable of number of children was likely added to the dataset to supplement the available information and provide background into the profiles of insurance policy purchasers. 
+
+**The answer to my research question:** Number of children does not seem to influence insurance charges in any detectable or significant way. 
+
+Variables more closely related to higher insurance charges than number of children or sex include:
+
+1. **Smoker Status:** The relationship between smokers and higher insurance charges is undeniable. On average, smokers will pay much more for insurance policies than non-smokers. 
+2. **Age:** Age appears to have the strongest linear relationship with an increase in insurance charges. 
+3. **BMI:** There appears to be a linear relationship between BMI and insurance charges. On average, those who are obese and overweight will pay much more for insurance policies than those at a healthy weight.
+
+Overall, this analysis can assist individuals in identifying personal factors that increase insurance charges. 
 
 ---
 ## Summary & Conclusions
+
+This project helped us to successfully identify variables that are related to higher insurance charges, and variables that are not determining factors. Through our analyses, we found that being a smoker increased costs more than any other variable alone. After considering smoker status, age and BMI were also determining factors. We also found that sex and number of children are negligible factors in determining insurance charges.
+
+*Probably need a few more sentences to summarize Prabh's findings here, I think I summarized Som's enough but feel free to change it!*
