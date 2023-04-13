@@ -101,7 +101,7 @@ Oddly enough, the trend in the graph ressembles a curve and we notice that peopl
 
 The northeast region appears to be the one that yields the highest incurance costs on average. We can suspect that this has to do with environmental circumstances, potentially meaning that the region is likelier to be struck by natrual disasters or doesn't support an adequate healthcare infastructure amongst other resources.
 
-**Overview:
+**Overview:**
 
 From our analysis we discovered some fascinating details about the influence of each lifestyle attribute. That is not to say that the answers to some of our questions did not deviate from any preconcieved notions about positive/safe choices. 
 
