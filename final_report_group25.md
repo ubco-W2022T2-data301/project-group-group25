@@ -49,37 +49,37 @@ When reviewing this chart, we can deduce that there is no substantial difference
 
 ![Sex Count Plot](images/sex_cost_graph2.png)
 
-**Observation:
+**Observation:**
 
 Here we can deduce that men and women's insurance cost distribution is quite similar, which eliminates any concerns in regards to bias from insurance companies; no one gender is liklier to pursue a harmful lifestyle over the other. No harmful stereotypes were at play when it came to sex.
 
 ![Sex Count Plot](images/smoker_cost_graph2.png)
 
-**Observation:
+**Observation:**
 
-Here we can see that an individual's smoker status plays a pivotal role when it comes to dictating insurance costs with smokers averaging around 15000 to 35000 dollars more than non-smokers. The graphs gives us a stark difference between each group's insurance premiums, and decision more detremental than one would intially anticipate.
+Here we can see that an individual's smoker status plays a pivotal role when it comes to dictating insurance costs with smokers averaging around 15000 to 35000 dollars more than non-smokers. The graphs gives us a stark difference between each group's insurance premiums, proving the decision to more detremental than one would intially anticipate.
 
 ![Sex Count Plot](images/age_cost_graph2.png)
 
-**Observation:
+**Observation:**
 
 The following graph suggests that insurance prices tend to grow consistently as an indiviual ages. This can be in part due to higher likelihood of health complications. Here, the insurance statistics proved to follow a quite logical/intuitive pattern. A strange observation would be that there seems to be a higher concentration of applicants that are around the age of 20, this could be attributed to the impact of age on affordability.
 
 ![Sex Count Plot](images/bmi_cost_graph2.png)
 
-**Observation:
+**Observation:**
 
 From the graph above we can tell that high BMI is much likelier to increase insurance prices than low BMI. And accordng to the data, the unhealthiest BMI seemed to range from 30-45 and the most common seemed to be around the range of 25-30. This again alligns well with our preconceived understanding of linearity between BMI and likelyhood of heart failure and other complications.
 
 ![Sex Count Plot](images/child_cost_graph2.png)
 
-**Observation:
+**Observation:**
 
 Oddly enough, the trend in the graph ressembles a curve and we notice that people who have more than 3 kids average lower insurance costs. We would normally assume that having more children tends to burden people's financial circumstances as well as add liabilities and stress, yet we made such a surprising observation; what could cause insurance costs to go down for people who have more than 3 children?
 
 ![Sex Count Plot](images/region_graph2.png)
 
-**Observation:
+**Observation:**
 
 The northeast region appears to be the one that yields the highest incurance costs on average. We can suspect that this has to do with environmental circumstances, potentially meaning that the region is likelier to be struck by natrual disasters or doesn't support an adequate healthcare infastructure amongst other resources.
 
@@ -99,7 +99,7 @@ From our analysis we discovered some fascinating details about the influence of 
 
 - Where individuals lived was the least influential factor. A bigger chunk of the northeast and southeast residents paid higher prices but the difference was not notable.
 
-**Take-away:
+**Takeaway:**
 
 In the end, Smoker status proved to impact insurance costs the most on average, followed by Age, BMI, number of children, and lastly region. We were able to deduce this by comparing the outliers with higher costs and their lower averages within each category; the difference in cost gave us an estimate.
 
