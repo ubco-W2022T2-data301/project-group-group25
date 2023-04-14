@@ -17,6 +17,9 @@ This visualization sparked some curiosity in us. What mediating factors exist in
 
 This visualization served as the basis for research question & analysis 3 (Nadia).
 
+![Relationship between Age and Smoker Status](images/scatter_line_plot.png)
+The EDA provided has shown some insights into the relationship between age and smoker status in the insurance dataset. We can see that the majority of individuals in the dataset are between the ages of 20 and 50, there are more non-smokers than smokers in the dataset, and there are more smokers in the older age groups. (Prabh)
+
 ---
 
 ## Question 1 & Analysis (Prabh)
@@ -181,4 +184,4 @@ Overall, this analysis can assist individuals in identifying personal factors th
 
 This project helped us to successfully identify variables that are related to higher insurance charges, and variables that are not determining factors. Through our analyses, we found that being a smoker increased costs more than any other variable alone. After considering smoker status, age and BMI were also determining factors. We also found that sex and number of children are negligible factors in determining insurance charges.
 
-*Probably need a few more sentences to summarize Prabh's findings here, I think I summarized Som's enough but feel free to change it!*
+In conclusion, changes in law, technology, and consumer preferences have had a significant impact on the pricing of insurance policies over the past decade. Through our analysis of smoking status, age, region, and number of children, we have demonstrated that these factors play a vital role in determining insurance costs. Insurance companies should take these factors into account when setting policy premiums and developing pricing strategies. By doing so, they can ensure a fair allocation of costs among policyholders and effectively target their marketing efforts. Ultimately, the goal is to provide affordable insurance options that meet the needs of consumers while also ensuring that insurance companies remain financially stable.
