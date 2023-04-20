@@ -17,8 +17,12 @@ This visualization sparked some curiosity in us. What mediating factors exist in
 
 This visualization served as the basis for research question & analysis 3 (Nadia).
 
-![Relationship between Age and Smoker Status](images/scatter_line_plot.png)
-The EDA provided has shown some insights into the relationship between age and smoker status in the insurance dataset. We can see that the majority of individuals in the dataset are between the ages of 20 and 50, there are more non-smokers than smokers in the dataset, and there are more smokers in the older age groups. (Prabh)
+![Number of smokers and non-smokers](images/smokersvsnonsmokers.png)
+The scatter plot shows the relationship between age and smoker status, with age plotted on the x-axis and smoker status on the y-axis. The hue parameter is used to differentiate the data points based on smoker status. The marker parameter is set to 's', which represents a square marker shape. The legend parameter is set to 'full', which shows a legend for each level of the hue variable.
+
+The line plot shows the mean smoker status for each age group, with age plotted on the x-axis and mean smoker status on the y-axis. The err_style parameter is set to None, which removes the error bars from the plot. The estimator parameter is set to np.mean, which calculates the mean smoker status for each age group.
+
+Overall, this code generates a visualization that displays the relationship between age and smoker status, with a scatter plot and a line plot. The scatter plot shows the individual data points, while the line plot shows the trend of mean smoker status for each age group. (Prabh)
 
 ---
 
